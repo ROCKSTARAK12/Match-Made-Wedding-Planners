@@ -1,0 +1,163 @@
+/* General Styles */ 
+body { 
+    background-image: url(Webdev.png);
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: black;
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .header {
+    
+    color: black;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .header h1 {
+    font-size: 36px;
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color:black;
+    font-size: 18px;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background-image: url('images/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-align: center;
+  }
+  
+  .hero h2 {
+    font-size: 48px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  }
+  
+  /* Portfolio */
+  .portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .portfolio-item {
+    width: 30%;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .portfolio-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .portfolio-item .desc {
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Testimonials */
+  .testimonials {
+    background-color: white;
+    padding: 50px 0;
+  }
+  
+  .testimonial-item {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .testimonial-item p {
+    font-size: 18px;
+    font-style: italic;
+  }
+  
+  .testimonial-item .name {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  /* Inquiry Form */
+  .inquiry-form {
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .inquiry-form input,
+  .inquiry-form textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .inquiry-form button {
+    background-color:burlywood;
+    color: black;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .inquiry-form button:hover {
+    background-color: burlywood;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+  
